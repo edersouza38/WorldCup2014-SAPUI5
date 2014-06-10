@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="sap.ui.demo.worldCup2014.view.Splash"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog
+		showHeader="false"
+		horizontalScrolling="false"
+		verticalScrolling="false">
+		<content>
+			<Image
+				class="worldCupLogo"
+				src="./img/fifa-world-cup-2014.jpg"
+				densityAware="false" />
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

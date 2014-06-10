@@ -1,0 +1,46 @@
+/* @font-face {
+	font-family: wc2014Font;
+	src: url(fonts/Samba.ttf);
+}
+
+.wc2014,.sapMListHdr,.sapMLabel {
+	font-family: wc2014Font, Arial, Helvetica, sans-serif !important;
+} */
+
+/*The media queries need to be last in the css to make the dynamic content load correctly */
+.worldCupLogo {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 961px) {
+	.teamFlag {
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.teamFlag {
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.teamFlag {
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.teamFlag {
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.teamFlag {
+		max-width: 50%;
+	}
+	.teamFlagColumn {
+		width: 100px;
+	}
+}

@@ -1,0 +1,17 @@
+<core:View
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	controllerName="sap.ui.demo.worldCup2014.view.Groups"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>GroupsPageTitle}">		
+		<List items="{groups>/group_collection}">
+			<StandardListItem
+				class="wc2014"
+				type="Active"
+				app:groupId="{groups>id}"
+				title="{i18n>GroupsListTitle} {groups>name}" 
+				press="handleListItemPress"/>
+		</List>
+	</Page>
+</core:View>

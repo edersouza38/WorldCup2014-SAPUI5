@@ -1,0 +1,92 @@
+<core:View
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="sap.ui.demo.worldCup2014.view.Matches"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+		title="{i18n>MatchTableTitle} {path: 'navigation>/team',
+							  formatter: 'sap.ui.demo.worldCup2014.util.TeamFormatter.teamName'}"
+		showNavButton="true"
+		navButtonPress="handleNavButtonPress">
+		<Table
+			items="{path: 'matches>/match_collection',
+					sorter: [{path: 'kickoff', descending: false}]}"
+			id="matches">
+			<columns>
+				<Column>
+					<header>
+						<Label
+							class="wc2014"
+							text="{i18n>MatchTableColumnHT}" />
+					</header>
+				</Column>
+				<Column>
+					<header>
+						<Label
+							class="wc2014"
+							text="{i18n>MatchTableColumnVT}" />
+					</header>
+				</Column>
+				<Column
+					minScreenWidth="Tablet"
+					demandPopin="true"
+					hAlign="Center">
+					<header>
+						<Label
+							class="wc2014"
+							text="{i18n>MatchTableColumnDT}" />
+					</header>
+				</Column>
+				<Column
+					minScreenWidth="Tablet"
+					demandPopin="true"
+					hAlign="Center">
+					<header>
+						<Label
+							class="wc2014"
+							text="{i18n>MatchTableColumnVN}" />
+					</header>
+				</Column>
+				<Column
+					minScreenWidth="Tablet"
+					demandPopin="true"
+					hAlign="Center">
+					<header>
+						<Label
+							class="wc2014"
+							text="{i18n>MatchTableColumnVC}" />
+					</header>
+				</Column>
+			</columns>
+			<ColumnListItem type="{sap.m.ListType.Detail}">
+				<cells>
+					<ObjectIdentifier
+						title="{path: 'matches>team1_id',
+							  formatter: 'sap.ui.demo.worldCup2014.util.TeamFormatter.teamName'}"
+						class="wc2014" />
+
+					<ObjectIdentifier
+						title="{path: 'matches>team2_id',
+							  formatter: 'sap.ui.demo.worldCup2014.util.TeamFormatter.teamName'}"
+						class="wc2014" />
+					<Text
+						text="{matches>kickoff}"
+						class="wc2014" />
+					<Text
+						text="{ 
+								path:'matches>venue_id', 
+								formatter:'sap.ui.demo.worldCup2014.util.TeamFormatter.venueName' 
+							  }"
+						class="wc2014" />
+					<Text
+						text="{ 
+								path:'matches>venue_id', 
+								formatter:'sap.ui.demo.worldCup2014.util.TeamFormatter.venueCity' 
+							  }"
+						class="wc2014" />
+				</cells>
+			</ColumnListItem>
+		</Table>
+	</Page>
+</core:View>

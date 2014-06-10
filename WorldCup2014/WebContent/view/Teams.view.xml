@@ -1,0 +1,66 @@
+<core:View
+	xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout"
+	xmlns="sap.m"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	controllerName="sap.ui.demo.worldCup2014.view.Teams">
+	<Page
+		title="{navigation>/group}"
+		showNavButton="{device>/isPhone}"
+		navButtonPress="handleNavButtonPress">
+		<Table
+			headerText="{i18n>TeamsTableTitle}"
+			items="{teams>/team_collection}"
+			id="teams">
+			<columns>
+				<Column styleClass="teamFlagColumn">
+				</Column>
+				<Column>
+				</Column>
+				<Column
+					minScreenWidth="Small"
+					demandPopin="true"
+					popinDisplay="{sap.m.PopinDisplay.Inline}">
+				</Column>
+			</columns>
+			<ColumnListItem
+				type="Navigation"
+				app:teamId="{teams>id}"
+				press="handleTeamPress">
+				<!-- press="handleTeamPress"> -->
+				<cells>
+					<Image
+						src="./img/flags/{teams>code}.png"
+						class="teamFlag"
+						densityAware="false">
+					</Image>
+
+					<VBox
+						alignItems="Start"
+						justifyContent="Start"
+						fitContainer="true">
+						<items>
+							<Text
+								class="wc2014"
+								text="{teams>code}" />
+							<Label
+								class="wc2014"
+								text="{teams>name}" />
+						</items>
+					</VBox>
+					<RatingIndicator
+						enable="false"
+						maxValue="{teams>wins}"
+						value="{teams>wins}"
+						iconSelected="sap-icon://competitor"
+						iconUnselected="sap-icon://competitor"
+						iconHovered="sap-icon://competitor">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</RatingIndicator>
+				</cells>
+			</ColumnListItem>
+		</Table>
+	</Page>
+</core:View>

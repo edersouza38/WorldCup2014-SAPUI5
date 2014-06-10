@@ -1,0 +1,65 @@
+{
+	"venue_collection":
+	[
+		{
+			"id": 1,
+			"name": "Estadio Mineirao",
+			"city": "Belo Horizonte"
+		},
+		{
+			"id": 2,
+			"name": "Estadio Nacional",
+			"city": "Brasilia"
+		},
+		{
+			"id": 3,
+			"name": "Arena Pantanal",
+			"city": "Cuiaba"
+		},
+		{
+			"id": 4,
+			"name": "Arena da Baixada",
+			"city": "Curitiba"
+		},
+		{
+			"id": 5,
+			"name": "Estadio Castelao",
+			"city": "Fortaleza"
+		},
+		{
+			"id": 6,
+			"name": "Arena Amazonia",
+			"city": "Manaus"
+		},
+		{
+			"id": 7,
+			"name": "Estadio das Dunas",
+			"city": "Natal"
+		},
+		{
+			"id": 8,
+			"name": "Estadio Beira-Rio",
+			"city": "Porto Alegre"
+		},
+		{
+			"id": 9,
+			"name": "Arena Pernambuco",
+			"city": "Recife"
+		},
+		{
+			"id": 10,
+			"name": "Estadio do Maracana",
+			"city": "Rio De Janeiro"
+		},
+		{
+			"id": 11,
+			"name": "Arena Fonte Nova",
+			"city": "Salvador"
+		},
+		{
+			"id": 12,
+			"name": "Arena de Sao Paulo",
+			"city": "Sao Paulo"
+		}
+	]
+}

@@ -1,0 +1,197 @@
+{
+	"team_collection":
+	[
+		{
+			"id": 1,
+			"group_id": 1,
+			"code": "BRA",
+			"name": "Brazil", "wins":5
+		},
+		{
+			"id": 2,
+			"group_id": 1,
+			"code": "HRV",
+			"name": "Croatia", "wins":0
+		},
+		{
+			"id": 3,
+			"group_id": 1,
+			"code": "MEX",
+			"name": "Mexico", "wins":0
+		},
+		{
+			"id": 4,
+			"group_id": 1,
+			"code": "CMR",
+			"name": "Cameroon", "wins":0
+		},
+		{
+			"id": 5,
+			"group_id": 2,
+			"code": "ESP",
+			"name": "Spain", "wins":1
+		},
+		{
+			"id": 6,
+			"group_id": 2,
+			"code": "NLD",
+			"name": "Netherlands", "wins":0
+		},
+		{
+			"id": 7,
+			"group_id": 2,
+			"code": "CHL",
+			"name": "Chile", "wins":0
+		},
+		{
+			"id": 8,
+			"group_id": 2,
+			"code": "AUS",
+			"name": "Australia", "wins":0
+		},
+		{
+			"id": 9,
+			"group_id": 3,
+			"code": "COL",
+			"name": "Colombia", "wins":0
+		},
+		{
+			"id": 10,
+			"group_id": 3,
+			"code": "GRC",
+			"name": "Greece", "wins":0
+		},
+		{
+			"id": 11,
+			"group_id": 3,
+			"code": "CIV",
+			"name": "Ivory Coast", "wins":0
+		},
+		{
+			"id": 12,
+			"group_id": 3,
+			"code": "JPN",
+			"name": "Japan", "wins":0
+		},
+		{
+			"id": 13,
+			"group_id": 4,
+			"code": "URY",
+			"name": "Uruguay", "wins":2
+		},
+		{
+			"id": 14,
+			"group_id": 4,
+			"code": "CRC",
+			"name": "Costa Rica", "wins":0
+		},
+		{
+			"id": 15,
+			"group_id": 4,
+			"code": "ENG",
+			"name": "England", "wins":1
+		},
+		{
+			"id": 16,
+			"group_id": 4,
+			"code": "ITA",
+			"name": "Italy", "wins":4
+		},
+		{
+			"id": 17,
+			"group_id": 5,
+			"code": "CHE",
+			"name": "Switzerland", "wins":0
+		},
+		{
+			"id": 18,
+			"group_id": 5,
+			"code": "ECU",
+			"name": "Ecuador", "wins":0
+		},
+		{
+			"id": 19,
+			"group_id": 5,
+			"code": "FRA",
+			"name": "France", "wins":1
+		},
+		{
+			"id": 20,
+			"group_id": 5,
+			"code": "HND",
+			"name": "Honduras", "wins":0
+		},
+		{
+			"id": 21,
+			"group_id": 6,
+			"code": "ARG",
+			"name": "Argentina", "wins":2
+		},
+		{
+			"id": 22,
+			"group_id": 6,
+			"code": "BIH",
+			"name": "Bosnia and Herzegovina", "wins":0
+		},
+		{
+			"id": 23,
+			"group_id": 6,
+			"code": "IRN",
+			"name": "Iran", "wins":0
+		},
+		{
+			"id": 24,
+			"group_id": 6,
+			"code": "NGA",
+			"name": "Nigeria", "wins":0
+		},
+		{
+			"id": 25,
+			"group_id": 7,
+			"code": "DEU",
+			"name": "Germany", "wins":3
+		},
+		{
+			"id": 26,
+			"group_id": 7,
+			"code": "PRT",
+			"name": "Portugal", "wins":0
+		},
+		{
+			"id": 27,
+			"group_id": 7,
+			"code": "GHA",
+			"name": "Ghana", "wins":0
+		},
+		{
+			"id": 28,
+			"group_id": 7,
+			"code": "USA",
+			"name": "USA", "wins":0
+		},
+		{
+			"id": 29,
+			"group_id": 8,
+			"code": "BEL",
+			"name": "Belgium", "wins":0
+		},
+		{
+			"id": 30,
+			"group_id": 8,
+			"code": "DZA",
+			"name": "Algeria", "wins":0
+		},
+		{
+			"id": 31,
+			"group_id": 8,
+			"code": "RUS",
+			"name": "Russia", "wins":0
+		},
+		{
+			"id": 32,
+			"group_id": 8,
+			"code": "KOR",
+			"name": "Korea", "wins":0
+		}
+	]
+}
